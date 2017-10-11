@@ -37,8 +37,8 @@ const gamesettingsBtn = document.getElementById('gamesettings');
 const versionDiv = document.getElementById('version');
 versionDiv.innerHTML = package.version;
 
-const configFile = require('os').homedir() + '/RoC-Launcher.json';
-var config = {folder: 'C:\\SWGRelics'};
+const configFile = require('os').homedir() + '/Aftermath-Launcher.json';
+var config = {folder: 'C:\\SWG_Aftermath'};
 if (fs.existsSync(configFile))
     config = JSON.parse(fs.readFileSync(configFile));
 folderBox.value = config.folder;
@@ -305,7 +305,9 @@ function saveConfig() {
 function removeHeader(webview) {
     return event => {
     webview.executeJavaScript(
-        "document.getElementById('header').remove();" +
+        "document.getElementById('masthead').remove();" +
+        "document.getElementById('header-top').remove();" +
+        "document.getElementById('custom-header').remove();" +
         "document.querySelector('.mob-menu-header-holder').remove();" +
         (webview == updates ?
         "document.querySelector('.entry-title').remove();" +

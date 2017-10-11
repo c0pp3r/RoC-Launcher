@@ -4,7 +4,7 @@ const {autoUpdater} = require('electron-updater');
 const path = require('path');
 const url = require('url');
 
-log.transports.file.file = require('os').homedir() + '/RoC-Launcher-log.txt';
+log.transports.file.file = require('os').homedir() + '/Aftermath-Launcher-log.txt';
 autoUpdater.logger = log;
 autoUpdater.logger.transports.file.level = 'info';
 log.info('App starting...');
@@ -12,7 +12,7 @@ log.info('App starting...');
 let mainWindow;
 
 function createWindow () {
-  mainWindow = new BrowserWindow({width: 1024, minWidth: 1024, height: 600, minHeight: 600, show: false, autoHideMenuBar: true, frame: false});
+  mainWindow = new BrowserWindow({width: 1024, minWidth: 1024, height: 800, minHeight: 600, show: false, autoHideMenuBar: true, frame: false});
   mainWindow.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',
