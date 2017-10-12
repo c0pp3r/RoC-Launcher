@@ -1,5 +1,5 @@
   "name": "aftermath-launcher",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Aftermath Official SWGEMU Launcher",
   "main": "main.js",
   "scripts": {
