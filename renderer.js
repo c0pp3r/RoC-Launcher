@@ -126,7 +126,7 @@ home.addEventListener('click', event => {
     settings.className = "button";
 });
 
-websiteBtn.addEventListener('click', event => shell.openExternal("http://forum.swgaftermath.us/"));
+websiteBtn.addEventListener('click', event => shell.openExternal("http://swgaftermath.site/"));
 discordBtn.addEventListener('click', event => shell.openExternal("https://discord.gg/4DxKrxn"));
 
 browseBtn.addEventListener('click', function (event) {
