@@ -132,7 +132,7 @@ home.addEventListener('click', event => {
 });
 
 websiteBtn.addEventListener('click', event => shell.openExternal("http://swgaftermath.site/"));
-discordBtn.addEventListener('click', event => shell.openExternal("https://discord.gg/4DxKrxn"));
+discordBtn.addEventListener('click', event => shell.openExternal("https://discord.gg/M7HWnMh"));
 
 browseBtn.addEventListener('click', function (event) {
     ipc.send('open-directory-dialog', 'selected-directory');
