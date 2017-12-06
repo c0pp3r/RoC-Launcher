@@ -23,7 +23,10 @@ const strings = {
     'force_rank': 'Force Rank',
     'force_title': 'Force Title',
     'shipwright': 'Shipwright',
-    'crafting': 'Crafting'
+    'crafting': 'Crafting',
+    'base': 'Base Busting',
+    'base_bust': 'Base Busting',
+    'jedi': 'Jedi'
 }
 
 var build = builds[0] || {
