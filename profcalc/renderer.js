@@ -4,6 +4,7 @@ const skillNames = require('./skill_names');
 const commands = require('./commands');
 const commandDesc = require('./command_descriptions');
 const statNames = require('./stat_names');
+const species = require('./species');
 
 const buildsFile = require('os').homedir() + '/builds.json';
 var builds = [];
