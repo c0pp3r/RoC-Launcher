@@ -10146,7 +10146,7 @@
                 "carbine_speed": 10,
                 "carbine_hit_while_moving": 10,
                 "private_carbine_combat_difficulty": 100,
-                "carbine_accuracy": 20,
+                "carbine_accuracy": 45,
                 "counterattack": 25,
                 "ranged_defense": 25,
                 "carbine_aim": 25
