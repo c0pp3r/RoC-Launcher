@@ -3973,7 +3973,8 @@
         "JEDI_STATE_REQUIRED": "none",
         "COMMANDS": [
           "private_rifle_ability_2",
-          "startleShot1"
+          "startleShot1",
+          "cert_rifle_tenloss_dxr6_disruptor"
         ],
         "SKILL_MODS": {
           "block": 15,
@@ -4129,7 +4130,8 @@
         "JEDI_STATE_REQUIRED": "none",
         "COMMANDS": [
           "private_rifle_support_3",
-          "flurryShot2"
+          "flurryShot2",
+          "cert_rifle_berserker"
         ],
         "SKILL_MODS": {
           "melee_defense": 10,
@@ -4251,7 +4253,8 @@
           "private_pistol_master",
           "multiTargetPistolShot",
           "disarmingShot2",
-          "ranged_damage_mitigation_3"
+          "ranged_damage_mitigation_3",
+          "cert_pistol_de_10"
         ],
         "SKILL_MODS": {
           "pistol_accuracy": 10,
@@ -4376,7 +4379,8 @@
         "JEDI_STATE_REQUIRED": "none",
         "COMMANDS": [
           "private_pistol_accuracy_4",
-          "pointBlankArea2"
+          "pointBlankArea2",
+          "cert_pistol_geonosian_sonic_blaster"
         ],
         "SKILL_MODS": {
           "dodge": 20,
@@ -4839,7 +4843,7 @@
         ],
         "SKILL_MODS": {
           "carbine_speed": 10,
-          "carbine_accuracy": 20,
+          "carbine_accuracy": 45,
           "carbine_hit_while_moving": 10,
           "carbine_aim": 25,
           "ranged_defense": 25,
@@ -5376,7 +5380,8 @@
           "private_unarmed_novice",
           "unarmedHit2",
           "meditate",
-          "cert_vibroknuckler"
+          "cert_vibroknuckler",
+          "cert_blacksun_razor"
         ],
         "SKILL_MODS": {
           "unarmed_damage": 70,
@@ -6828,7 +6833,8 @@
         "APPRENTICESHIPS_REQUIRED": 0,
         "JEDI_STATE_REQUIRED": "none",
         "COMMANDS": [
-          "private_2hand_speed_2"
+          "private_2hand_speed_2",
+          "cert_sword_2h_blacksun_hack"
         ],
         "SKILL_MODS": {
           "twohandmelee_speed": 15,
@@ -7283,7 +7289,8 @@
         "APPRENTICESHIPS_REQUIRED": 0,
         "JEDI_STATE_REQUIRED": "none",
         "COMMANDS": [
-          "private_polearm_accuracy_2"
+          "private_polearm_accuracy_2",
+          "cert_lance_nightsister"
         ],
         "SKILL_MODS": {
           "polearm_speed": 15,
@@ -9953,7 +9960,7 @@
           "private_creature_empathy": 85,
           "private_creature_training": 85,
           "private_creature_management": 85,
-          "tame_level": 20,
+          "tame_level": 61,
           "stored_pets": 4
         },
         "SEARCHABLE": true,
@@ -15006,7 +15013,8 @@
           "sprayShot",
           "fastBlast",
           "fireLightningCone2",
-          "ranged_damage_mitigation_3"
+          "ranged_damage_mitigation_3",
+          "hunters_foresight"
         ],
         "SKILL_MODS": {
           "droid_tracks": 4,
@@ -15017,6 +15025,7 @@
           "ranged_defense": 7,
           "pistol_accuracy": 10,
           "carbine_accuracy": 10,
+          "bountyhunter_toughness": 25,
           "private_heavyweapon_combat_difficulty": 100,
           "private_carbine_difficulty": 100,
           "private_pistol_difficulty": 100
@@ -26631,10 +26640,12 @@
         "XP_CAP": 100000,
         "APPRENTICESHIPS_REQUIRED": 0,
         "JEDI_STATE_REQUIRED": "none",
+        "COMMANDS": [
+          "basebust_novice"
+        ],
         "SEARCHABLE": true,
         "ENDER": 0,
         "SKILL_MODS": {},
-        "COMMANDS": [],
         "SKILLS_REQUIRED": []
       },
       {
@@ -26678,10 +26689,12 @@
         "XP_CAP": 300000,
         "APPRENTICESHIPS_REQUIRED": 0,
         "JEDI_STATE_REQUIRED": "none",
+        "COMMANDS": [
+          "basebust_hacker"
+        ],
         "SEARCHABLE": true,
         "ENDER": 0,
-        "SKILL_MODS": {},
-        "COMMANDS": []
+        "SKILL_MODS": {}
       },
       {
         "NAME": "base_bust_security_hacker_02",
@@ -26772,10 +26785,12 @@
         "XP_CAP": 300000,
         "APPRENTICESHIPS_REQUIRED": 0,
         "JEDI_STATE_REQUIRED": "none",
+        "COMMANDS": [
+          "basebust_decrypter"
+        ],
         "SEARCHABLE": true,
         "ENDER": 0,
-        "SKILL_MODS": {},
-        "COMMANDS": []
+        "SKILL_MODS": {}
       },
       {
         "NAME": "base_bust_genetic_decrypter_02",
@@ -26866,10 +26881,12 @@
         "XP_CAP": 300000,
         "APPRENTICESHIPS_REQUIRED": 0,
         "JEDI_STATE_REQUIRED": "none",
+        "COMMANDS": [
+          "basebust_disruptor"
+        ],
         "SEARCHABLE": true,
         "ENDER": 0,
-        "SKILL_MODS": {},
-        "COMMANDS": []
+        "SKILL_MODS": {}
       },
       {
         "NAME": "base_bust_power_disruptor_02",
@@ -26960,10 +26977,12 @@
         "XP_CAP": 300000,
         "APPRENTICESHIPS_REQUIRED": 0,
         "JEDI_STATE_REQUIRED": "none",
+        "COMMANDS": [
+          "basebust_sequencer"
+        ],
         "SEARCHABLE": true,
         "ENDER": 0,
-        "SKILL_MODS": {},
-        "COMMANDS": []
+        "SKILL_MODS": {}
       },
       {
         "NAME": "base_bust_destruction_sequencer_02",
